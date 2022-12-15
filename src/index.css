@@ -48,8 +48,13 @@ h3 {
   text-align: center;
   position: relative;
 }
+
+.h914 {
+  height: 914px;
+}
+
 .container-content {
-  padding: 100px 137px 100px 165px;
+  padding: 100px 165px;
 }
 
 .container-bacground::before {
@@ -110,4 +115,37 @@ h3 {
   font-size: 16px;
   font-weight: 700;
   text-decoration: none;
+}
+
+/*_________________________________________video-utub-section__________________________________*/
+
+.section-tittle {
+  text-align: center;
+}
+
+.ta-center {
+  text-align: center;
+}
+
+.text-video {
+  font-weight: 400;
+  margin-top: 27px;
+  margin-bottom: 30px;
+}
+
+.video {
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+.rectangle {
+  width: 1440px;
+  height: 100px;
+  background: var(--basic-dark);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+.c-basic-dark {
+  background: var(--basic-dark);
 }
