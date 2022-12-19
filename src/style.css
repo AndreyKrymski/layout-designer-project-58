@@ -106,7 +106,7 @@ h3 {
 .container-bacground::before {
   content: '';
   position: absolute;
-  background-image: url(../images/background.png);
+  background-image: url(./background.png);
   background-repeat: no-repeat;
   background-size: cover;
   top: 0;
@@ -336,7 +336,7 @@ h3 {
 
 
 .submit-email::before {
-  content: url('../images/send.svg');
+  content: url('./send.svg');
   
 }
 
