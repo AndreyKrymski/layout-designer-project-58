@@ -101,7 +101,6 @@ h3 {
   box-sizing: border-box;
   height: 914px;
   position: relative;
-  height: 914px;
 }
 .h-891 {
   height: 891px;
@@ -256,6 +255,7 @@ iframe {
 
 .card-title {
   margin-bottom: 16px;
+  padding-left: 24px;
 }
 
 .card-text {
