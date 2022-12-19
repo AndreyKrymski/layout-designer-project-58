@@ -12,6 +12,7 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1.6em;
+  font-weight: 400;
   color: var(--dark)
 }
 
@@ -66,6 +67,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
   margin: 0;
   padding: 0;
   font-family: 'Neucha', cursive;
@@ -90,7 +92,7 @@ h3 {
 .container {
   width: 1440px;
   box-sizing: border-box;
-  text-align: center;
+
   position: relative;
   height: 914px;
 }
@@ -267,7 +269,7 @@ iframe {
 }
 
 .img {
-  box-shadow: 0 0 30px var(--translucent-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   position: relative;
   z-index: 1;
   vertical-align: middle;
