@@ -331,6 +331,7 @@ iframe {
   display: flex;
   justify-content: start;
   text-align: left;
+  font-weight: 600;
 }
 
 .left-side-bar, .right-side-bar {
