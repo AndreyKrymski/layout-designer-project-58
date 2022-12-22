@@ -130,10 +130,6 @@ h3 {
   padding: 100px 165px;
 }
 
-.pd-n-100 {
-  padding-bottom: 0px;
-}
-
 .container-bacground::before {
   content: '';
   position: absolute;
@@ -208,6 +204,10 @@ h3 {
 
 iframe {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+.p-relative {
+  position: relative;
   z-index: 2;
 }
 
@@ -215,9 +215,8 @@ iframe {
   width: 1440px;
   height: 100px;
   background: var(--basic-dark);
-  opacity: 0.5;
   position: relative;
-  bottom: 90px;
+  bottom: 190px;
   z-index: 1;
 }
 
