@@ -254,6 +254,10 @@ iframe {
   line-height: 62.4px;
 }
 
+.h-card {
+  height: 348px;
+}
+
 .card-number {
   font-size: 64px;
   font-family: 'Neucha', cursive;
@@ -261,7 +265,7 @@ iframe {
   text-align: left;
   padding-top: 34px;
   padding-left: 24px;
-  margin-bottom: 45px;
+  margin-bottom: 50px;
 }
 
 .card-title {
