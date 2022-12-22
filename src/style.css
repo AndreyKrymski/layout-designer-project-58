@@ -211,6 +211,12 @@ iframe {
   z-index: 2;
 }
 
+.rectan {
+  width: 1440px;
+  height: 100px;
+  background: var(--basic-dark);
+}
+
 .rectangle {
   width: 1440px;
   height: 100px;
