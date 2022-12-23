@@ -408,9 +408,10 @@ iframe {
   padding: 0;
 }
 
-.input-email {
-  width: 423px;
+.input-email input {
+  padding-left:10px;
 }
+
 .link-rules {
   color: var(--white);
 }
