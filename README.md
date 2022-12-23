@@ -3,5 +3,7 @@ The first project is a landing page describing common cognitive biases in progra
 <br>
 [![Actions Status](https://github.com/AndreyKrymski/layout-designer-project-58/workflows/hexlet-check/badge.svg)](https://github.com/AndreyKrymski/layout-designer-project-58/actions)
 
+![alt text](./src/images/image_processing20221205-2528-ehvtax.png)
+![My photo] (src/images/image_processing20221205-2528-ehvtax.png "my photo")
 ![Image alt](https://github.com/AndreyKrymski/
 layout-designer-project-58/raw/main/src/images/image_processing20221205-2528-ehvtax.png)
