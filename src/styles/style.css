@@ -75,7 +75,7 @@ h6 {
   font-weight: 400;
   margin: 0;
   padding: 0;
-  font-family: "Neucha, cursive";
+  font-family: "Neucha", cursive;
   line-height: 1.2em;
 }
 
@@ -250,7 +250,7 @@ iframe {
 .span-text {
   display: block;
   font-size: 52px;
-  font-family: "Neucha, cursive";
+  font-family: "Neucha", cursive;
   text-align: left;
   line-height: 62.4px;
 }
@@ -261,7 +261,7 @@ iframe {
 
 .card-number {
   font-size: 64px;
-  font-family: "Neucha, cursive";
+  font-family: "Neucha", cursive;
   line-height: 45.5px;
   text-align: left;
   padding-top: 34px;
@@ -318,7 +318,7 @@ iframe {
 
 .side-bar {
   text-align: left;
-  font-family: "Neucha, cursive";
+  font-family: "Neucha", cursive;
 }
 
 .title-side-bar {
