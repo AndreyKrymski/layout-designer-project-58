@@ -134,7 +134,7 @@ h3 {
 .container-bacground::before {
   content: "";
   position: absolute;
-  background-image: url("./background.png");
+  background-image: url("./images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   top: 0;
@@ -386,7 +386,7 @@ iframe {
 }
 
 .submit-email::before {
-  content: url("./send.svg");
+  content: url("./images/send.svg");
 }
 
 .text-bt-input {
