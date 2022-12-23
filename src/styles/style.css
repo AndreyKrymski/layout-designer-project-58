@@ -75,7 +75,7 @@ h6 {
   font-weight: 400;
   margin: 0;
   padding: 0;
-  font-family: "Neucha", cursive;
+  font-family: "Neucha, cursive";
   line-height: 1.2em;
 }
 
@@ -93,7 +93,7 @@ h3 {
 
 /* ___________________________________________________header____________________________________________ */
 .d-sh1 {
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
 }
 
 .container {
@@ -132,16 +132,16 @@ h3 {
 }
 
 .container-bacground::before {
-  content: '';
+  content: "";
   position: absolute;
-  background-image: url(./background.png);
+  background-image: url("./background.png");
   background-repeat: no-repeat;
   background-size: cover;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: .2;
+  opacity: 20%;
 }
 
 .main-image {
@@ -170,7 +170,7 @@ h3 {
 }
 
 .content-text:last-child {
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 .button {
@@ -180,7 +180,7 @@ h3 {
   padding: 12px 24px;
   background-color: var(--basic);
   color: var(--white);
-  border: 0px solid var(--basic);
+  border: 0 solid var(--basic);
   border-radius: 3px;
   font-size: 16px;
   font-weight: 700;
@@ -204,7 +204,7 @@ h3 {
 }
 
 iframe {
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
 }
 
 .p-relative {
@@ -250,7 +250,7 @@ iframe {
 .span-text {
   display: block;
   font-size: 52px;
-  font-family: "Neucha", cursive;
+  font-family: "Neucha, cursive";
   text-align: left;
   line-height: 62.4px;
 }
@@ -261,7 +261,7 @@ iframe {
 
 .card-number {
   font-size: 64px;
-  font-family: "Neucha", cursive;
+  font-family: "Neucha, cursive";
   line-height: 45.5px;
   text-align: left;
   padding-top: 34px;
@@ -304,14 +304,13 @@ iframe {
   margin-bottom: 100px;
 }
 
-
 .novixina {
   border-radius: 32px;
-  box-shadow: 0 0 16px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 16px rgba(0, 0, 0, 15%);
 }
 
 .img {
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 25%);
   position: relative;
   z-index: 1;
   vertical-align: middle;
@@ -319,7 +318,7 @@ iframe {
 
 .side-bar {
   text-align: left;
-  font-family: "Neucha", cursive;
+  font-family: "Neucha, cursive";
 }
 
 .title-side-bar {
@@ -336,7 +335,7 @@ iframe {
   line-height: 40.8px;
 }
 
-.header-foter{
+.header-foter {
   text-align: left;
   font-size: 14px;
   padding-left: 10px;
@@ -362,7 +361,7 @@ iframe {
 
 .mar-l-r {
   margin-left: 30px;
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 /* ___________________________________________________footer_____________________________________ */
@@ -386,9 +385,8 @@ iframe {
   background-color: var(--basic);
 }
 
-
 .submit-email::before {
-  content: url('./send.svg');
+  content: url("./send.svg");
 }
 
 .text-bt-input {
@@ -403,6 +401,7 @@ iframe {
   display: flex;
   align-items: center;
 }
+
 .input-email,
 .submit-email {
   border: none;
